@@ -9,19 +9,31 @@ import SwiftUI
 
 struct RegisterView: View {
     @EnvironmentObject var user: UserManager
+
     @State private var name = ""
+    @State private var characterСounter = 0
+    @State private var buttonStatus = true
+    @State private var counterColor: Color = .red
     
     var body: some View {
         VStack {
-            TextField("Enter your name...", text: $name)
-                .multilineTextAlignment(.center)
+            HStack {
+                RegisterTF(name: $name,
+                           characterСounter: $characterСounter,
+                           buttonStatus: $buttonStatus,
+                           counterColor: $counterColor)
+                Text("\(characterСounter)")
+                    .foregroundColor(counterColor)
+            }
             Button(action: registerUser) {
                 HStack {
                     Image(systemName: "checkmark.circle")
                     Text("Ok")
                 }
             }
+            .disabled(buttonStatus)
         }
+        .padding()
     }
     
     private func registerUser() {
@@ -35,5 +47,6 @@ struct RegisterView: View {
 struct RegisterView_Previews: PreviewProvider {
     static var previews: some View {
         RegisterView()
+//            .environmentObject(UserManager())
     }
 }

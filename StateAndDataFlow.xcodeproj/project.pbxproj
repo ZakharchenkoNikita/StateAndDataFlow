@@ -15,6 +15,7 @@
 		06A52E7526EFD54100659BB6 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7426EFD54100659BB6 /* RegisterView.swift */; };
 		06A52E7726EFD65B00659BB6 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7626EFD65B00659BB6 /* UserManager.swift */; };
 		06A52E7926EFD8AD00659BB6 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7826EFD8AD00659BB6 /* StarterView.swift */; };
+		1165102226F0E911006E3666 /* RegisterTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165102126F0E911006E3666 /* RegisterTF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		06A52E7426EFD54100659BB6 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		06A52E7626EFD65B00659BB6 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		06A52E7826EFD8AD00659BB6 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		1165102126F0E911006E3666 /* RegisterTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				06A52E6326EFC71F00659BB6 /* StateAndDataFlowApp.swift */,
 				06A52E6526EFC71F00659BB6 /* ContentView.swift */,
 				06A52E7426EFD54100659BB6 /* RegisterView.swift */,
+				1165102126F0E911006E3666 /* RegisterTF.swift */,
 				06A52E7826EFD8AD00659BB6 /* StarterView.swift */,
 				06A52E7626EFD65B00659BB6 /* UserManager.swift */,
 				06A52E7226EFCC6900659BB6 /* TimeCounter.swift */,
@@ -151,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				06A52E7326EFCC6900659BB6 /* TimeCounter.swift in Sources */,
+				1165102226F0E911006E3666 /* RegisterTF.swift in Sources */,
 				06A52E7526EFD54100659BB6 /* RegisterView.swift in Sources */,
 				06A52E7926EFD8AD00659BB6 /* StarterView.swift in Sources */,
 				06A52E6626EFC71F00659BB6 /* ContentView.swift in Sources */,
