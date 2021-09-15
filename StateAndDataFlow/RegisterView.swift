@@ -9,7 +9,7 @@ import SwiftUI
 
 struct RegisterView: View {
     @EnvironmentObject var user: UserManager
-
+    
     @State private var name = ""
     @State private var characterСounter = 0
     @State private var buttonStatus = true
@@ -40,6 +40,7 @@ struct RegisterView: View {
         if !name.isEmpty {
             user.name = name
             user.isRegister.toggle()
+            user.saveData()
         }
     }
 }

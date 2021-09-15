@@ -16,6 +16,9 @@
 		06A52E7726EFD65B00659BB6 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7626EFD65B00659BB6 /* UserManager.swift */; };
 		06A52E7926EFD8AD00659BB6 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A52E7826EFD8AD00659BB6 /* StarterView.swift */; };
 		1165102226F0E911006E3666 /* RegisterTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1165102126F0E911006E3666 /* RegisterTF.swift */; };
+		11C5937426F10B23004AAD31 /* StartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5937326F10B23004AAD31 /* StartButton.swift */; };
+		11C5937626F10D82004AAD31 /* LogOutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5937526F10D82004AAD31 /* LogOutButton.swift */; };
+		11C5937A26F10E34004AAD31 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5937926F10E34004AAD31 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +33,9 @@
 		06A52E7626EFD65B00659BB6 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		06A52E7826EFD8AD00659BB6 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
 		1165102126F0E911006E3666 /* RegisterTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterTF.swift; sourceTree = "<group>"; };
+		11C5937326F10B23004AAD31 /* StartButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButton.swift; sourceTree = "<group>"; };
+		11C5937526F10D82004AAD31 /* LogOutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButton.swift; sourceTree = "<group>"; };
+		11C5937926F10E34004AAD31 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,10 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				06A52E6326EFC71F00659BB6 /* StateAndDataFlowApp.swift */,
+				06A52E7826EFD8AD00659BB6 /* StarterView.swift */,
 				06A52E6526EFC71F00659BB6 /* ContentView.swift */,
 				06A52E7426EFD54100659BB6 /* RegisterView.swift */,
 				1165102126F0E911006E3666 /* RegisterTF.swift */,
-				06A52E7826EFD8AD00659BB6 /* StarterView.swift */,
+				11C5937326F10B23004AAD31 /* StartButton.swift */,
+				11C5937526F10D82004AAD31 /* LogOutButton.swift */,
+				11C5937926F10E34004AAD31 /* CustomButton.swift */,
 				06A52E7626EFD65B00659BB6 /* UserManager.swift */,
 				06A52E7226EFCC6900659BB6 /* TimeCounter.swift */,
 				06A52E6726EFC72000659BB6 /* Assets.xcassets */,
@@ -155,8 +164,11 @@
 			files = (
 				06A52E7326EFCC6900659BB6 /* TimeCounter.swift in Sources */,
 				1165102226F0E911006E3666 /* RegisterTF.swift in Sources */,
+				11C5937426F10B23004AAD31 /* StartButton.swift in Sources */,
 				06A52E7526EFD54100659BB6 /* RegisterView.swift in Sources */,
+				11C5937A26F10E34004AAD31 /* CustomButton.swift in Sources */,
 				06A52E7926EFD8AD00659BB6 /* StarterView.swift in Sources */,
+				11C5937626F10D82004AAD31 /* LogOutButton.swift in Sources */,
 				06A52E6626EFC71F00659BB6 /* ContentView.swift in Sources */,
 				06A52E7726EFD65B00659BB6 /* UserManager.swift in Sources */,
 				06A52E6426EFC71F00659BB6 /* StateAndDataFlowApp.swift in Sources */,
